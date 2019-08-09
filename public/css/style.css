@@ -1,0 +1,38 @@
+.login  {
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    font-size: 30px;
+    background: #FFE98A;
+    color: black;
+    margin-left: 25%;
+
+}
+
+.title {
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background: pink;
+
+}
+
+.content {
+	    font-size: 30px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.button {
+	background: lightgrey;
+}
+/*
+.avatar figure {
+	border-radius: 60%;
+	height: 20px;
+	width: 20px;
+	transition: 0.6s;
+	transform: translateY(100px);
+}*/

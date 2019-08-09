@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase-firestore.js"></script>
+</head>
+<body>
+  <header>
+    <section class="menu">
+      <img class= "logo" id="logo" src="imagenes/1logo_coloresLab.png">
+          <img class= "avatar" id="avatar" src="imagenes/usuario.png">
+    </section>
+  </header>
+<div class="title">
+<h1>Bienvenido a Laboratorians</h1> 
+<h2>Tu Red Social de Tecnología</h2>
+</div>
+
+<section class="content">
+  <p>Laboratorians es una AppWeb que surge principalmente para las estudiantes y egresadas de Laboratoria en donde encuentren un espacio en común para compartir historias, consejos, reseñas, cursos, charlas, trabajos tech, o lo que deseen publicar en la comunidad chilena o Latinoamericana</p>
+</section>
+<section class="login">
+	<p>Por Favor Conéctate:</p>
+	<table>Correo Electrónico</table>
+	<input type="email" name="" id="emailSesion">
+	<table>Contraseña</table>
+	<input type="password" name="" id="passwordSesion">
+	
+  <section class="button">
+  <button id="btnInicioEmail">Iniciar Sesión</button>
+</section>
+	<br> <br>
+  <section class="button">
+	<button id="authGoogle">Iniciar con Google</button>
+  </section>
+	<br>
+	<table>Nombres</table>
+	<input type="text" name="nombreContactoReg" id="nombreContactoReg">
+	<table>Correo Electrónico</table>
+	<input type="text" name="emailContactoReg" id="emailContactoReg">
+	<table>Contraseña</table>
+	<input type="password" name="passwordReg" id="passwordReg">
+
+	<button class="button" id="btnRegistroEmail">Registrarse</button>
+</section>
+<br>
+
+
+
+<script  type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script type="text/javascript" src="js/config/ConfigFirebase.js"></script>
+<script type="text/javascript" src="js/auth/autenticacion.js"></script>
+<script type="text/javascript" src="js/auth/authController.js"></script>
+<script type="text/javascript" src="js/general.js"></script>
+</body>
+</html>
