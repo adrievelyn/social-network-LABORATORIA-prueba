@@ -1,13 +1,28 @@
+.color {
+    background-color:#E9DC3F;
+}
+
+
 .login  {
-    width: 50%;
+    width: 70%;
     text-align: center;
     padding: 20px;
     display: inline-block;
     font-size: 30px;
-    background: #FFE98A;
+    background: #F991CC;
     color: black;
-    margin-left: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 25px;
 
+}
+
+.logo{
+margin-left: 15%;
+}
+
+.avatar {
+margin-right: 15%;
 }
 
 .title {
@@ -15,24 +30,58 @@
     text-align: center;
     font-size: 30px;
     color: white;
-    background: pink;
+    background: #F69FD4;
 
 }
 
 .content {
-	    font-size: 30px;
-    text-align: center;
+        font-size: 30px;
+    text-align: auto;
     padding-bottom: 40px;
+    margin-top: 100px;
+     margin-left: 15%;
+    margin-right: 15%;
+
 }
 
 .button {
-	background: lightgrey;
+    background: #EAC94F;
+   
 }
-/*
-.avatar figure {
-	border-radius: 60%;
-	height: 20px;
-	width: 20px;
-	transition: 0.6s;
-	transform: translateY(100px);
-}*/
+
+.button1 {
+    background: white;
+}
+
+.footer {
+    background: #F69FD4;
+    margin-top: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.copyRight {
+    margin-left: 0;
+}
+
+.contactUs {
+margin-right: 15%;
+
+}
+
+.menu{
+    justify-content: space-between;
+}
+.logo {
+    margin-left: 15%;
+   /* height: 10px;
+    width: 20px;
+    transition: 0.6s;
+    transform: translateY(50px);*/
+}
+
+.avatar {
+        margin-left: 45%;
+}

@@ -9,3 +9,4 @@ $('#avatar').click(() => {
 		M.toast({html: 'Error al realizar el SignOut'});
 	})
 })
+

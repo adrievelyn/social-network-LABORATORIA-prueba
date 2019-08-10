@@ -52,5 +52,5 @@ class Autenticacion{
       console.error(error.message)
       M.toast({html: 'Error al autenticarse con Google'})
     })
-	}
+  }
 }
