@@ -9,7 +9,7 @@
     padding: 20px;
     display: inline-block;
     font-size: 30px;
-    background: #F991CC;
+    background: #B4436C;
     color: black;
     margin-left: 15%;
     margin-right: 15%;
@@ -30,7 +30,7 @@ margin-right: 15%;
     text-align: center;
     font-size: 30px;
     color: white;
-    background: #F69FD4;
+    background: #B4436C;
 
 }
 
@@ -54,7 +54,7 @@ margin-right: 15%;
 }
 
 .footer {
-    background: #F69FD4;
+    background: #B4436C;
     margin-top: 25%;
     display: flex;
     align-items: center;
